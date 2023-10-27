@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "manipulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HIKsolver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HIKsolver-Debug-f7d7795c458c04b338d3.json",
+					"name" : "HIKsolver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HMath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HMath-Debug-1287ddf125442fc6126e.json",
+					"name" : "HMath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HTrajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HTrajectory-Debug-252b3cc02e6ceb6873b8.json",
+					"name" : "HTrajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handsome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handsome-Debug-2cdde873d51a28177768.json",
+					"name" : "handsome",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/handsome/study/course/year3.0/robot1/stable/build",
+		"source" : "/home/handsome/study/course/year3.0/robot1/stable"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

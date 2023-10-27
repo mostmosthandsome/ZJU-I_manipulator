@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHMath.a CMakeFiles/HMath.dir/src/Hmath.cpp.o
+/usr/bin/ranlib libHMath.a

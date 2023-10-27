@@ -1,5 +1,6 @@
 #pragma once
 #include <eigen3/Eigen/Dense>
+#include <pybind11/pybind11.h>
 #include <vector>
 #include "Hmath.h"
 

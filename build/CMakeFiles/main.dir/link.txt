@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/home/handsome/study/course/year3.0/robot1/stable/build libHIKsolver.so libHMath.a libHTrajectory.so 
