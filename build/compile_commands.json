@@ -1,22 +1,7 @@
 [
 {
   "directory": "/home/handsome/study/course/year3.0/robot1/stable/build",
-  "command": "/usr/bin/g++  -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -g -fPIC -o CMakeFiles/HMath.dir/src/Hmath.cpp.o -c /home/handsome/study/course/year3.0/robot1/stable/src/Hmath.cpp",
-  "file": "/home/handsome/study/course/year3.0/robot1/stable/src/Hmath.cpp"
-},
-{
-  "directory": "/home/handsome/study/course/year3.0/robot1/stable/build",
-  "command": "/usr/bin/g++ -DHIKsolver_EXPORTS -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -g -fPIC -o CMakeFiles/HIKsolver.dir/src/HIKsolver.cpp.o -c /home/handsome/study/course/year3.0/robot1/stable/src/HIKsolver.cpp",
-  "file": "/home/handsome/study/course/year3.0/robot1/stable/src/HIKsolver.cpp"
-},
-{
-  "directory": "/home/handsome/study/course/year3.0/robot1/stable/build",
-  "command": "/usr/bin/g++ -DHTrajectory_EXPORTS -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -g -fPIC -o CMakeFiles/HTrajectory.dir/src/Htrajectory.cpp.o -c /home/handsome/study/course/year3.0/robot1/stable/src/Htrajectory.cpp",
-  "file": "/home/handsome/study/course/year3.0/robot1/stable/src/Htrajectory.cpp"
-},
-{
-  "directory": "/home/handsome/study/course/year3.0/robot1/stable/build",
-  "command": "/usr/bin/g++ -Dhandsome_EXPORTS -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -isystem /usr/include/python3.11 -g -fPIC -fvisibility=hidden -o CMakeFiles/handsome.dir/src/main.cpp.o -c /home/handsome/study/course/year3.0/robot1/stable/src/main.cpp",
+  "command": "/usr/bin/g++ -Dhandsome_EXPORTS -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -I/usr/include/eigen3 -isystem /home/handsome/study/course/year3.0/robot1/stable/pybind11/include -isystem /usr/include/python3.11 -g -fPIC -fvisibility=hidden -o CMakeFiles/handsome.dir/src/main.cpp.o -c /home/handsome/study/course/year3.0/robot1/stable/src/main.cpp",
   "file": "/home/handsome/study/course/year3.0/robot1/stable/src/main.cpp"
 }
 ]

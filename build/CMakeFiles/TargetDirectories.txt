@@ -1,6 +1,5 @@
-/home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/HMath.dir
-/home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/HIKsolver.dir
-/home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/HTrajectory.dir
 /home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/handsome.dir
 /home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/edit_cache.dir
 /home/handsome/study/course/year3.0/robot1/stable/build/CMakeFiles/rebuild_cache.dir
+/home/handsome/study/course/year3.0/robot1/stable/build/pybind11/CMakeFiles/edit_cache.dir
+/home/handsome/study/course/year3.0/robot1/stable/build/pybind11/CMakeFiles/rebuild_cache.dir

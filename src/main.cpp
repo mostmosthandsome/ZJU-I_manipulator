@@ -6,6 +6,7 @@
 #include "HIKsolver.h"
 #include "Hmath.h"
 #include "Htrajectory.h"
+#include <pybind11/eigen.h>
 
 
 #define TIME_STEP 0.05
@@ -30,6 +31,7 @@ namespace handsome
             std::string s;
             while(getline(f,s))
             {
+                std::cout << s << std::endl;
                 double tmp_pose[6];
                 int p1 = s.find(','),p2 = s.find(',',p1 + 1);
                 for(int i = 0; i < 6; ++i,p1 = p2,p2 = s.find(',',p1 + 1))
@@ -60,8 +62,27 @@ namespace handsome
                     if(curveVec[j][i].T > T) T = curveVec[j][i].T;
                 }
                 T_total += T,Times.push_back(T),lstSolution = path[i];
-                std::cout << "路径点" << i << "已达到\n";
             }
+            std::cout << "已生成所有路径，规划路径总时长为" << T_total << "s\n";
+        }
+
+    public:
+        Eigen::Vector<double, 6> getThetaAt(double t)
+        {
+            Eigen::Vector<double, 6> th(0,0,0,0,0,0);
+            int len = Times.size();
+            for(int i = 0; i < len; ++i)
+            {
+                if(t > Times[i])
+                {
+                    t -= Times[i];
+                    continue;
+                }    
+                for(int j = 0; j < 6; ++j)  th[j] = curveVec[j][i].getPosAt(t);
+                return th;
+            }
+            for(int j = 0; j < 6; ++j)  th[j] = curveVec[j][len - 1].getPosAt(t);
+            return th;
         }
 
         private:
@@ -87,5 +108,6 @@ PYBIND11_MODULE(handsome,m)
     pybind11::class_<handsome::HSolver>(m,"HSolver")
     .def(pybind11::init())
     .def("readData",&handsome::HSolver::readData,"read pose data from file")
-    .def("process",&handsome::HSolver::process,"process the data");
+    .def("process",&handsome::HSolver::process,"process the data")
+    .def("getThetaAt",&handsome::HSolver::getThetaAt,"get all the 6 thetas at time t");
 }

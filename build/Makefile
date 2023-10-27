@@ -117,45 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HMath
-
-# Build rule for target.
-HMath: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HMath
-.PHONY : HMath
-
-# fast build rule for target.
-HMath/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HMath.dir/build.make CMakeFiles/HMath.dir/build
-.PHONY : HMath/fast
-
-#=============================================================================
-# Target rules for targets named HIKsolver
-
-# Build rule for target.
-HIKsolver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HIKsolver
-.PHONY : HIKsolver
-
-# fast build rule for target.
-HIKsolver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIKsolver.dir/build.make CMakeFiles/HIKsolver.dir/build
-.PHONY : HIKsolver/fast
-
-#=============================================================================
-# Target rules for targets named HTrajectory
-
-# Build rule for target.
-HTrajectory: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HTrajectory
-.PHONY : HTrajectory
-
-# fast build rule for target.
-HTrajectory/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HTrajectory.dir/build.make CMakeFiles/HTrajectory.dir/build
-.PHONY : HTrajectory/fast
-
-#=============================================================================
 # Target rules for targets named handsome
 
 # Build rule for target.
@@ -167,78 +128,6 @@ handsome: cmake_check_build_system
 handsome/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/handsome.dir/build.make CMakeFiles/handsome.dir/build
 .PHONY : handsome/fast
-
-src/HIKsolver.o: src/HIKsolver.cpp.o
-.PHONY : src/HIKsolver.o
-
-# target to build an object file
-src/HIKsolver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIKsolver.dir/build.make CMakeFiles/HIKsolver.dir/src/HIKsolver.cpp.o
-.PHONY : src/HIKsolver.cpp.o
-
-src/HIKsolver.i: src/HIKsolver.cpp.i
-.PHONY : src/HIKsolver.i
-
-# target to preprocess a source file
-src/HIKsolver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIKsolver.dir/build.make CMakeFiles/HIKsolver.dir/src/HIKsolver.cpp.i
-.PHONY : src/HIKsolver.cpp.i
-
-src/HIKsolver.s: src/HIKsolver.cpp.s
-.PHONY : src/HIKsolver.s
-
-# target to generate assembly for a file
-src/HIKsolver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIKsolver.dir/build.make CMakeFiles/HIKsolver.dir/src/HIKsolver.cpp.s
-.PHONY : src/HIKsolver.cpp.s
-
-src/Hmath.o: src/Hmath.cpp.o
-.PHONY : src/Hmath.o
-
-# target to build an object file
-src/Hmath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HMath.dir/build.make CMakeFiles/HMath.dir/src/Hmath.cpp.o
-.PHONY : src/Hmath.cpp.o
-
-src/Hmath.i: src/Hmath.cpp.i
-.PHONY : src/Hmath.i
-
-# target to preprocess a source file
-src/Hmath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HMath.dir/build.make CMakeFiles/HMath.dir/src/Hmath.cpp.i
-.PHONY : src/Hmath.cpp.i
-
-src/Hmath.s: src/Hmath.cpp.s
-.PHONY : src/Hmath.s
-
-# target to generate assembly for a file
-src/Hmath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HMath.dir/build.make CMakeFiles/HMath.dir/src/Hmath.cpp.s
-.PHONY : src/Hmath.cpp.s
-
-src/Htrajectory.o: src/Htrajectory.cpp.o
-.PHONY : src/Htrajectory.o
-
-# target to build an object file
-src/Htrajectory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HTrajectory.dir/build.make CMakeFiles/HTrajectory.dir/src/Htrajectory.cpp.o
-.PHONY : src/Htrajectory.cpp.o
-
-src/Htrajectory.i: src/Htrajectory.cpp.i
-.PHONY : src/Htrajectory.i
-
-# target to preprocess a source file
-src/Htrajectory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HTrajectory.dir/build.make CMakeFiles/HTrajectory.dir/src/Htrajectory.cpp.i
-.PHONY : src/Htrajectory.cpp.i
-
-src/Htrajectory.s: src/Htrajectory.cpp.s
-.PHONY : src/Htrajectory.s
-
-# target to generate assembly for a file
-src/Htrajectory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HTrajectory.dir/build.make CMakeFiles/HTrajectory.dir/src/Htrajectory.cpp.s
-.PHONY : src/Htrajectory.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -272,19 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HIKsolver"
-	@echo "... HMath"
-	@echo "... HTrajectory"
 	@echo "... handsome"
-	@echo "... src/HIKsolver.o"
-	@echo "... src/HIKsolver.i"
-	@echo "... src/HIKsolver.s"
-	@echo "... src/Hmath.o"
-	@echo "... src/Hmath.i"
-	@echo "... src/Hmath.s"
-	@echo "... src/Htrajectory.o"
-	@echo "... src/Htrajectory.i"
-	@echo "... src/Htrajectory.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

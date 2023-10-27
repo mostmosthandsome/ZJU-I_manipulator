@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -Dhandsome_EXPORTS
 
-CXX_INCLUDES = -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -isystem /usr/include/python3.11
+CXX_INCLUDES = -I/home/handsome/study/course/year3.0/robot1/stable/build -I/home/handsome/study/course/year3.0/robot1/stable -I/usr/include/python3.10 -I/home/handsome/study/course/year3.0/robot1/stable/include -I/usr/include/eigen3 -isystem /home/handsome/study/course/year3.0/robot1/stable/pybind11/include -isystem /usr/include/python3.11
 
 CXX_FLAGS = -g -fPIC -fvisibility=hidden
 

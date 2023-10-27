@@ -405,10 +405,11 @@ CMakeFiles/handsome.dir/src/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /usr/local/include/pybind11/pybind11.h \
- /usr/local/include/pybind11/detail/class.h \
- /usr/local/include/pybind11/attr.h /usr/local/include/pybind11/cast.h \
- /usr/local/include/pybind11/detail/common.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/pybind11.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/class.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/attr.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/cast.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/common.h \
  /usr/include/python3.10/Python.h /usr/include/python3.10/patchlevel.h \
  /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -531,24 +532,27 @@ CMakeFiles/handsome.dir/src/main.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/typeindex /usr/include/c++/13/unordered_set \
  /usr/include/c++/13/bits/unordered_set.h /usr/include/c++/13/version \
- /usr/local/include/pybind11/detail/descr.h \
- /usr/local/include/pybind11/detail/type_caster_base.h \
- /usr/local/include/pybind11/pytypes.h \
- /usr/local/include/pybind11/buffer_info.h /usr/include/c++/13/utility \
- /usr/include/c++/13/bits/stl_relops.h /usr/include/c++/13/optional \
- /usr/local/include/pybind11/detail/internals.h \
- /usr/local/include/pybind11/detail/typeid.h /usr/include/c++/13/cxxabi.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/descr.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/type_caster_base.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/pytypes.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/buffer_info.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /usr/include/c++/13/optional \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/internals.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/typeid.h \
+ /usr/include/c++/13/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
- /usr/local/include/pybind11/options.h \
- /usr/local/include/pybind11/detail/init.h \
- /usr/local/include/pybind11/gil.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/options.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/detail/init.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/gil.h \
  /home/handsome/study/course/year3.0/robot1/stable/include/Hmath.h \
- /usr/local/include/pybind11/stl.h /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
- /usr/include/c++/13/bits/list.tcc /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/stl.h \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/list \
+ /usr/include/c++/13/bits/stl_list.h /usr/include/c++/13/bits/list.tcc \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/set \
  /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h /usr/include/c++/13/valarray \
@@ -562,4 +566,48 @@ CMakeFiles/handsome.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/mask_array.h \
  /usr/include/c++/13/bits/indirect_array.h /usr/include/c++/13/variant \
  /usr/include/c++/13/bits/parse_numbers.h \
- /home/handsome/study/course/year3.0/robot1/stable/include/Htrajectory.h
+ /home/handsome/study/course/year3.0/robot1/stable/include/Htrajectory.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/eigen.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/numpy.h \
+ /home/handsome/study/course/year3.0/robot1/stable/pybind11/include/pybind11/complex.h \
+ /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/pstl/glue_numeric_defs.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/Core \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/SparseCore \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/Core \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseUtil.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseMatrixBase.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/plugins/BlockMethods.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseAssign.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/CompressedStorage.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/AmbiVector.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseCompressedBase.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseMatrix.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseMap.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/MappedSparseMatrix.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseVector.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseRef.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseTranspose.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseBlock.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseDot.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseRedux.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseView.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseProduct.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseDenseProduct.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseTriangularView.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/TriangularSolver.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparsePermutation.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseFuzzy.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/SparseCore/SparseSolverBase.h \
+ /home/handsome/study/course/year3.0/robot1/stable/Eigen/src/Core/util/ReenableStupidWarnings.h
