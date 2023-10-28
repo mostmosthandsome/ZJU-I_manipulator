@@ -36,3 +36,12 @@ Windows系统里建议使用VS进行编译（目前已测试成功）
 确认，然后生成即可
 在Release文件夹下运行python， 
 输入import handsome没有错误即可
+
+编译成功后，输入
+```python
+import handsome
+d = handsome.HSolver()
+d.readData(这里填path.txt文件路径和文件名)
+d.process()
+print(d.getThetaAt(这里填个时间))
+```
