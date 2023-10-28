@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g -shared  -o handsome.Hmath.cpython-311-x86_64-linux-gnu.so CMakeFiles/handsome.Hmath.dir/src/Hmath.cpp.o 

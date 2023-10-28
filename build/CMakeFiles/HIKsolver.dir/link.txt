@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libHIKsolver.so -o libHIKsolver.so CMakeFiles/HIKsolver.dir/src/HIKsolver.cpp.o  libHMath.a 

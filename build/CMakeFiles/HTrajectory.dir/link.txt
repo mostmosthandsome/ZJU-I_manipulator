@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libHTrajectory.so -o libHTrajectory.so CMakeFiles/HTrajectory.dir/src/Htrajectory.cpp.o  libHMath.a 
